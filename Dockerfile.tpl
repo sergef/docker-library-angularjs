@@ -16,9 +16,9 @@ RUN apk --update add \
 RUN gem install --no-rdoc --no-ri \
   compass
 
-COPY . /app
+ONBUILD COPY . /app
 
-RUN npm install \
+ONBUILD RUN npm install \
   && bower --allow-root install \
   && mv -f /app/node_modules /tmp/node_modules \
   && mv -f /app/bower_components /tmp/bower_components
