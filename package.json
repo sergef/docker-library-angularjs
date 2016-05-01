@@ -1,0 +1,14 @@
+{
+  "name": "docker-library-angularjs",
+  "version": "1.0.0",
+  "description": "Configurable Angular.JS Alpine base docker image.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "empty": "^0.10.1"
+  }
+}
